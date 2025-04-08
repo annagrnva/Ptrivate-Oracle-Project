@@ -147,10 +147,69 @@ table {
 
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  /* width: 100%; */
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1495px;
   margin: 0 auto;
+  padding: 0 15px;
 }
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.header-nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-content {
+  background-image: url(/img/bg.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.header-nav__menu-link {
+  font-weight: 400;
+  font-size: 18px;
+  color: #09B3B0;
+  text-decoration: none;
+
+}
+
+.header-nav_menu-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background: #09B3B0;
+}
+
+.header-nav_menu-search_glass {
+  
+
+}
+
+  .header-nav__menu-btn {
+    font-weight: 500;
+    font-size: 18px;
+    height: 50px; 
+    width: 99px; 
+    border: 5px solid #09B3B0; 
+    border-radius: 10px;
+    background-color: #09B3B0;
+    color: #FFFFFF;
+  }
+  
