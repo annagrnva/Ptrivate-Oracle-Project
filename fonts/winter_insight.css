@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Winter Insight';
+	src: url('../fonts/winter_insight.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/winter_insight.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/winter_insight.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/winter_insight.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/winter_insight.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/winter_insight.svg#winter_insight') format('svg'); /* Chrome < 4, Legacy iOS */
+}
